@@ -1,4 +1,4 @@
-namespace BlockGame.Utility;
+namespace RacingGame.Utility;
 
 // It's given a human name for 3 reasons.
 // 1.) It's dumb.

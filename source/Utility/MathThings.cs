@@ -1,6 +1,6 @@
 using System.Numerics;
 
-namespace BlockGame.Utility;
+namespace RacingGame.Utility;
 
 static class MathThings {
     public static void ToAxisAngle(this Quaternion q, out Vector3 axis, out float angle) {

@@ -1,6 +1,6 @@
 using Raylib_cs;
 
-namespace BlockGame.Graphics;
+namespace RacingGame.Graphics;
 
 public static class ShaderManager {
 

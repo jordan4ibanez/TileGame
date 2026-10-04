@@ -1,6 +1,6 @@
 using Raylib_cs;
 
-namespace BlockGame.Input;
+namespace RacingGame.Input;
 
 public static class Keyboard {
 

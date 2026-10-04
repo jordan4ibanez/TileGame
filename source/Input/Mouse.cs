@@ -1,7 +1,7 @@
 using System.Numerics;
 using Raylib_cs;
 
-namespace BlockGame.Input;
+namespace RacingGame.Input;
 
 public static class Mouse {
     public static Vector2 GetDelta() {

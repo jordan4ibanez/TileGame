@@ -1,7 +1,7 @@
 using System.Numerics;
 using Raylib_cs;
 
-namespace BlockGame.Utility;
+namespace RacingGame.Utility;
 
 static class Window {
 

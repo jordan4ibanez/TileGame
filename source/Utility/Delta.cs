@@ -1,6 +1,6 @@
 using System.Diagnostics;
 
-namespace BlockGame.Utility;
+namespace RacingGame.Utility;
 
 public static class Delta {
     private static long _lastTimestamp = Stopwatch.GetTimestamp();

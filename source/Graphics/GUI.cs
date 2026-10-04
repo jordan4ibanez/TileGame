@@ -1,7 +1,7 @@
 using System.Numerics;
-using BlockGame.Utility;
+using RacingGame.Utility;
 
-namespace BlockGame.Graphics;
+namespace RacingGame.Graphics;
 
 static class GUI {
     // We standardize the GUI with 1080p.

@@ -1,4 +1,4 @@
-namespace BlockGame.Utility;
+namespace RacingGame.Utility;
 
 // MIT License
 //

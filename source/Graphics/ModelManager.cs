@@ -1,10 +1,10 @@
 using System.Numerics;
 using System.Runtime.InteropServices;
 using System.Text;
-using BlockGame.Utility;
+using RacingGame.Utility;
 using Raylib_cs;
 
-namespace BlockGame.Graphics;
+namespace RacingGame.Graphics;
 
 class AnimationContainer {
     public int animationCount = 0;
