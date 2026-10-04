@@ -4,13 +4,13 @@ using System.Numerics;
 using BlockGame.Utility;
 using Raylib_cs;
 
-class TileGame : IDisposable {
+class Game : IDisposable {
 
     readonly string windowTitle = "TileGame";
 
     static readonly bool DEBUG_MODE = false;
 
-    public TileGame() {
+    public Game() {
         Setup();
     }
     public static bool IsDebugMode() {
@@ -90,9 +90,7 @@ internal static class MainThread {
 
     [STAThread]
     public static void Main() {
-        TileGame game = new();
-
-        Console.WriteLine("testing");
+        Game game = new();
 
         while (!Raylib.WindowShouldClose()) {
             game.MainLoop();
