@@ -78,7 +78,7 @@ class Game : IDisposable {
         {
             Raylib.ClearBackground(Color.Gray);
 
-            CameraManager.SetPosition(new Vector3(20, 20, 20));
+            CameraManager.SetPosition(new Vector3(25, 20, 20));
             CameraManager.SetTarget(new Vector3(0, 0, 0));
 
             Raylib.BeginMode3D(CameraManager.Get());
@@ -86,6 +86,8 @@ class Game : IDisposable {
             Vector3 pos = new(0, 0, 0);
             Vector3 size = new(10, 10, 10);
             float linePadding = 0.02f;
+
+            Raylib.DrawGrid(1000, 10);
 
             Raylib.DrawCubeV(pos, size, Color.Red);
             Raylib.DrawCubeWiresV(pos, size + new Vector3(linePadding, linePadding, linePadding), Color.Black);
