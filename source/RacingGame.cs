@@ -1,6 +1,7 @@
 ﻿
 
 using System.Numerics;
+using RacingGame.Graphics;
 using RacingGame.Utility;
 using Raylib_cs;
 
@@ -33,7 +34,7 @@ class Game : IDisposable {
         Raylib.SetTargetFPS(0);
 
         // SoundManager.Initialize();
-        // FontManager.Initialize();
+        FontManager.Initialize();
         // TextureManager.Initialize();
         // ModelManager.Initialize();
         // ShaderManager.Initialize();
